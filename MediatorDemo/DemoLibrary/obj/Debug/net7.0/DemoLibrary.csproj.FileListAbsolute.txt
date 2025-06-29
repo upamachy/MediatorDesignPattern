@@ -1,0 +1,11 @@
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\bin\Debug\net7.0\DemoLibrary.deps.json
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\bin\Debug\net7.0\DemoLibrary.dll
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\bin\Debug\net7.0\DemoLibrary.pdb
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.AssemblyInfo.cs
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.dll
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\refint\DemoLibrary.dll
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.pdb
+C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\ref\DemoLibrary.dll
