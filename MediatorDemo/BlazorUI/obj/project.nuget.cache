@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "V7QJ8173nmY=",
+  "dgSpecHash": "3ZAZSM+jfFk=",
   "success": true,
-  "projectFilePath": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\BlazorUI\\BlazorUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\BlazorUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
