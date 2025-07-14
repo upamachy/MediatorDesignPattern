@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\handlers\\getpersonlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\queries\\getpersonlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\queries\\getpersonlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8858CA55-BC00-42FF-8016-2536C461C152}|BlazorUI\\BlazorUI.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\blazorui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8858CA55-BC00-42FF-8016-2536C461C152}|BlazorUI\\BlazorUI.csproj|solutionrelative:blazorui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8858CA55-BC00-42FF-8016-2536C461C152}|BlazorUI\\BlazorUI.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\blazorui\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8858CA55-BC00-42FF-8016-2536C461C152}|BlazorUI\\BlazorUI.csproj|solutionrelative:blazorui\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\demolibrarymediatrentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\demolibrarymediatrentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\queries\\getpersonlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\queries\\getpersonlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,16 +106,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DemoLibraryMediatREntryPoint.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DemoLibraryMediatREntryPoint.cs",
+              "RelativeDocumentMoniker": "DemoLibrary\\DemoLibraryMediatREntryPoint.cs",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DemoLibraryMediatREntryPoint.cs",
+              "RelativeToolTip": "DemoLibrary\\DemoLibraryMediatREntryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T15:14:05.87Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Program.cs",
               "RelativeDocumentMoniker": "BlazorUI\\Program.cs",
               "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Program.cs",
               "RelativeToolTip": "BlazorUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T03:06:10.47Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorUI\\_Imports.razor",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\_Imports.razor",
+              "RelativeToolTip": "BlazorUI\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T15:20:53.51Z"
             },
             {
               "$type": "Document",
@@ -117,14 +149,25 @@
               "RelativeDocumentMoniker": "DemoLibrary\\Handlers\\GetPersonListHandler.cs",
               "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Handlers\\GetPersonListHandler.cs",
               "RelativeToolTip": "DemoLibrary\\Handlers\\GetPersonListHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwBEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T02:58:59.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T02:58:59.47Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorUI\\Pages\\Index.razor",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorUI\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T19:29:29.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GetPersonListQuery.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Queries\\GetPersonListQuery.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Queries\\GetPersonListQuery.cs",
@@ -132,21 +175,7 @@
               "RelativeToolTip": "DemoLibrary\\Queries\\GetPersonListQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T02:54:55.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "BlazorUI\\Pages\\Index.razor",
-              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Pages\\Index.razor",
-              "RelativeToolTip": "BlazorUI\\Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T19:29:29.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T02:54:55.806Z"
             }
           ]
         }

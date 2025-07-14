@@ -1,6 +1,7 @@
 using BlazorUI.Data;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
+using DemoLibrary;
+using DemoLibrary.DataAccess;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
-
-
+builder.Services.AddSingleton<IDataAccess,DemoDataAccess>();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<DemoLibraryMediatREntryPoint>());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

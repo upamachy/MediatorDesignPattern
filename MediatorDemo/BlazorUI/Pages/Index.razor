@@ -1,5 +1,6 @@
 ﻿@using DemoLibrary.Models
 @page "/"  
+@inject MediatR.IMediator _mediator
 
 <PageTitle>Index</PageTitle>  
 
@@ -19,7 +20,7 @@ Welcome to your new app.
 
     protected override async Task OnInitializedAsync()  
     {  
-        await base.OnInitializedAsync();  
+        people = await _mediator.Send(new GetPersonListQuery());  
     }  
 }
    

@@ -15,7 +15,7 @@ namespace DemoLibrary.Handlers
         private readonly IDataAccess _data;
         public GetPersonListHandler(IDataAccess data)
         {
-            
+            _data = data;
         }
         public Task<List<PersonModel>> Handle(GetPersonListQuery request, CancellationToken cancellationToken)
         {

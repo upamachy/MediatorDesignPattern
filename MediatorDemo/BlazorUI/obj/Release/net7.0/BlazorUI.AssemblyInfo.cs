@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8ce71915a5266193b22348661289957fbfcc281")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92c1643d51bc28a1b31d101d3b185eab8b82fe3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

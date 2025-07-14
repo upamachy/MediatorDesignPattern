@@ -9,3 +9,16 @@ C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary
 C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\refint\DemoLibrary.dll
 C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.pdb
 C:\Users\Acer\source\repos\MediatorDemo\DemoLibrary\obj\Debug\net7.0\ref\DemoLibrary.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\bin\Debug\net7.0\DemoLibrary.deps.json
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\bin\Debug\net7.0\DemoLibrary.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\bin\Debug\net7.0\DemoLibrary.pdb
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.csproj.AssemblyReference.cache
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.AssemblyInfoInputs.cache
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.AssemblyInfo.cs
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.csproj.CoreCompileInputs.cache
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.sourcelink.json
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\refint\DemoLibrary.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\DemoLibrary.pdb
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoLibrary\obj\Debug\net7.0\ref\DemoLibrary.dll
