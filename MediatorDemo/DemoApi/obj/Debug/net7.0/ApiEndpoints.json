@@ -29,14 +29,18 @@
     "Parameters": [
       {
         "Name": "value",
-        "Type": "System.String",
+        "Type": "DemoLibrary.Models.PersonModel",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "DemoLibrary.Models.PersonModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -57,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "DemoLibrary.Models.PersonModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
