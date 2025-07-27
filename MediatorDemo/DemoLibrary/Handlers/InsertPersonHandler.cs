@@ -12,14 +12,14 @@ namespace DemoLibrary.Handlers
 {
     public class InsertPersonHandler : IRequestHandler<InsertPersonCommand, PersonModel>
     {
-        public readonly IDataAccess _dataAccess;
-        public InsertPersonHandler(IDataAccess dataAccess)
+        public readonly IMongoDataAccess _mongoDataAccess;
+        public InsertPersonHandler(IMongoDataAccess mongoDataAccess)
         {
-            _dataAccess = dataAccess;
+            _mongoDataAccess = mongoDataAccess;
         }
-        public Task<PersonModel> Handle(InsertPersonCommand request, CancellationToken cancellationToken)
+        public async Task<PersonModel> Handle(InsertPersonCommand request, CancellationToken cancellationToken)
         {
-            return Task.FromResult(_dataAccess.InsertPerson(request.FirstName, request.LastName));
+            return await _mongoDataAccess.InsertPersonAsync(request.FirstName, request.LastName);
         }
     }
 }

@@ -41,3 +41,9 @@ D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\
 D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\DemoLibrary.dll
 D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\DemoLibrary.pdb
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\DnsClient.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\MongoDB.Bson.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\MongoDB.Driver.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\SharpCompress.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\Snappier.dll
+D:\Personal Projects\Mediator Design Pattern\MediatorDesignPattern\MediatorDemo\DemoApi\bin\Debug\net7.0\ZstdSharp.dll

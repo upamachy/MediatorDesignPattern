@@ -1,4 +1,5 @@
-﻿using DemoLibrary.Models;
+﻿using DemoLibrary.DataAccess;
+using DemoLibrary.Models;
 using DemoLibrary.Queries;
 using MediatR;
 using System;
@@ -11,17 +12,14 @@ namespace DemoLibrary.Handlers
 {
     public class GetPersonByIdHandler : IRequestHandler<GetPersonByIdQuery, PersonModel>
     { 
-        public readonly IMediator _mediator;
-        public GetPersonByIdHandler( IMediator mediator)
+        public readonly IMongoDataAccess _mongoDataAccess;
+        public GetPersonByIdHandler( IMongoDataAccess mongoDataAccess)
         {
-            _mediator = mediator;
+            _mongoDataAccess = mongoDataAccess;
         }
         public async Task<PersonModel> Handle(GetPersonByIdQuery request, CancellationToken cancellationToken)
         {
-           var result = await _mediator.Send(new GetPersonListQuery());
-
-            var output = result.FirstOrDefault(x => x.Id == request.Id);
-            return output;
+           return await _mongoDataAccess.GetPersonByIdAsync(request.Id);
         }
     }
 }

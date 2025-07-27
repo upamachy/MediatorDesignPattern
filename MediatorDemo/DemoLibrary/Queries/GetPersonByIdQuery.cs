@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary.Queries
 {
-    public record GetPersonByIdQuery (int Id): IRequest<PersonModel>;
+    public record GetPersonByIdQuery (string Id): IRequest<PersonModel>;
 }

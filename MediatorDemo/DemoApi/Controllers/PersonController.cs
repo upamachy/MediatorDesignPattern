@@ -27,17 +27,31 @@ namespace DemoApi.Controllers
 
         // GET api/<PersonController>/5
         [HttpGet("{id}")]
-        public async Task<PersonModel> Get(int id)
+        public async Task<PersonModel> Get(string id)
         {
             return await _mediator.Send(new GetPersonByIdQuery(id));
         }
 
         // POST api/<PersonController>
         [HttpPost]
-        public async Task<PersonModel> Post([FromBody] PersonModel value)
+        public async Task<PersonModel> Post([FromBody] InsertPersonCommand command)
         {
-            var model = new InsertPersonCommand(value.FirstName, value.LastName);
-            return await _mediator.Send(model);
+            return await _mediator.Send(command);
+        }
+        
+        // PUT api/<PersonController>/5
+        [HttpPut("{id}")]
+        public async Task<PersonModel> Update(string id, [FromBody] UpdatePersonCommand command)
+        {
+            command.Id = id;
+            return await _mediator.Send(command);
+        }
+        
+        // DELETE api/<PersonController>/5
+        [HttpDelete("{id}")]
+        public async Task<PersonModel> Delete(string id)
+        {
+            return await _mediator.Send(new DeletePersonCommand(id));
         }
     }
 }

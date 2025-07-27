@@ -63,6 +63,10 @@
               "target": "Package",
               "version": "[7.0.19, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -141,6 +145,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.1, )"
             }
           },
           "imports": [
