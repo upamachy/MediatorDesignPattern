@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\dataaccess\\mongodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\dataaccess\\mongodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC997928-D9D8-47C0-BA16-DE08F7187CEC}|DemoApi\\DemoApi.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demoapi\\demoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC997928-D9D8-47C0-BA16-DE08F7187CEC}|DemoApi\\DemoApi.csproj|solutionrelative:demoapi\\demoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\demolibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\demolibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC997928-D9D8-47C0-BA16-DE08F7187CEC}|DemoApi\\DemoApi.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demoapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC997928-D9D8-47C0-BA16-DE08F7187CEC}|DemoApi\\DemoApi.csproj|solutionrelative:demoapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\dataaccess\\mongodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|solutionrelative:demolibrary\\dataaccess\\mongodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BED9AEF4-0048-48F1-BAA9-A8E7F3CCA557}|DemoLibrary\\DemoLibrary.csproj|d:\\personal projects\\mediator design pattern\\mediatordesignpattern\\mediatordemo\\demolibrary\\handlers\\getpersonlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,7 +198,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "DemoLibrary\\Models\\UserRole.cs",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Models\\UserRole.cs",
+              "RelativeToolTip": "DemoLibrary\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T21:05:29.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "DemoLibrary\\Models\\Register.cs",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Models\\Register.cs",
+              "RelativeToolTip": "DemoLibrary\\Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T20:59:38.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Models\\LogIn.cs",
+              "RelativeDocumentMoniker": "DemoLibrary\\Models\\LogIn.cs",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Models\\LogIn.cs",
+              "RelativeToolTip": "DemoLibrary\\Models\\LogIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T20:55:14.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DemoLibrary.csproj",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DemoLibrary.csproj",
+              "RelativeDocumentMoniker": "DemoLibrary\\DemoLibrary.csproj",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DemoLibrary.csproj",
+              "RelativeToolTip": "DemoLibrary\\DemoLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-17T19:42:36.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoApi.csproj",
+              "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoApi\\DemoApi.csproj",
+              "RelativeDocumentMoniker": "DemoApi\\DemoApi.csproj",
+              "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoApi\\DemoApi.csproj",
+              "RelativeToolTip": "DemoApi\\DemoApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-17T19:39:52.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PersonController.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoApi\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "DemoApi\\Controllers\\PersonController.cs",
@@ -190,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MongoDataAccess.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DataAccess\\MongoDataAccess.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\DataAccess\\MongoDataAccess.cs",
@@ -198,12 +279,11 @@
               "RelativeToolTip": "DemoLibrary\\DataAccess\\MongoDataAccess.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAMwDQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:20:49.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T18:20:49.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "DeletePersonHandler.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Handlers\\DeletePersonHandler.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Handlers\\DeletePersonHandler.cs",
@@ -215,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "GetPersonListHandler.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Handlers\\GetPersonListHandler.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Handlers\\GetPersonListHandler.cs",
@@ -227,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "PersonModel.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Models\\PersonModel.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Models\\PersonModel.cs",
@@ -239,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoApi\\Program.cs",
               "RelativeDocumentMoniker": "DemoApi\\Program.cs",
@@ -251,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "DeletePersonCommand.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Commands\\DeletePersonCommand.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Commands\\DeletePersonCommand.cs",
@@ -263,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "UpdatePersonCommand.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Commands\\UpdatePersonCommand.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Commands\\UpdatePersonCommand.cs",
@@ -275,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IMongoDataAccess.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DataAccess\\IMongoDataAccess.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\DataAccess\\IMongoDataAccess.cs",
@@ -287,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "UpdatePersonHandler.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Handlers\\UpdatePersonHandler.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Handlers\\UpdatePersonHandler.cs",
@@ -299,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorUI\\appsettings.json",
@@ -311,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "DemoApi\\appsettings.Development.json",
@@ -323,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "InsertPersonHandler.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Handlers\\InsertPersonHandler.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Handlers\\InsertPersonHandler.cs",
@@ -335,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoApi\\appsettings.json",
               "RelativeDocumentMoniker": "DemoApi\\appsettings.json",
@@ -347,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Program.cs",
               "RelativeDocumentMoniker": "BlazorUI\\Program.cs",
@@ -359,19 +439,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "DemoDataAccess.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DataAccess\\DemoDataAccess.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\DataAccess\\DemoDataAccess.cs",
               "ToolTip": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DataAccess\\DemoDataAccess.cs",
               "RelativeToolTip": "DemoLibrary\\DataAccess\\DemoDataAccess.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAIBQwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-14T19:04:19.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "InsertPersonCommand.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Commands\\InsertPersonCommand.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Commands\\InsertPersonCommand.cs",
@@ -383,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "GetPersonByIdHandler.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Handlers\\GetPersonByIdHandler.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Handlers\\GetPersonByIdHandler.cs",
@@ -395,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "GetPersonByIdQuery.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Queries\\GetPersonByIdQuery.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Queries\\GetPersonByIdQuery.cs",
@@ -407,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "IDataAccess.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DataAccess\\IDataAccess.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\DataAccess\\IDataAccess.cs",
@@ -419,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "DemoLibraryMediatREntryPoint.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\DemoLibraryMediatREntryPoint.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\DemoLibraryMediatREntryPoint.cs",
@@ -431,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "_Imports.razor",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorUI\\_Imports.razor",
@@ -443,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Index.razor",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\BlazorUI\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "BlazorUI\\Pages\\Index.razor",
@@ -455,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "GetPersonListQuery.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Mediator Design Pattern\\MediatorDesignPattern\\MediatorDemo\\DemoLibrary\\Queries\\GetPersonListQuery.cs",
               "RelativeDocumentMoniker": "DemoLibrary\\Queries\\GetPersonListQuery.cs",
