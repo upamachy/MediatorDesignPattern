@@ -2,17 +2,23 @@ using DemoLibrary;
 using DemoLibrary.DataAccess;
 using MediatR;
 using MongoDB.Driver;
+using Microsoft.EntityFrameworkCore;
+using DemoApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configure MongoDB
+// Configure Entity Framework (for relational data like UserRole)
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Configure MongoDB (for document data like PersonModel)
 builder.Services.AddSingleton<IMongoClient>(s =>
     new MongoClient(builder.Configuration.GetValue<string>("MongoDbSettings:ConnectionString")));
 builder.Services.AddSingleton<IMongoDatabase>(s =>
