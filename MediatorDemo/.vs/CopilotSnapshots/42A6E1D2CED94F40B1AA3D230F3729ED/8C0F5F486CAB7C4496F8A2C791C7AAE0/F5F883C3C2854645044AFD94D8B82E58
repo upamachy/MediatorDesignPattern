@@ -1,0 +1,55 @@
+﻿using DemoLibrary.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace DemoApi.Data
+{
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
+
+        // DbSets for your models
+        public DbSet<UserRole> UserRoles { get; set; }
+        
+        // Note: LogIn and Register are typically DTOs, not entities
+        // But if you want to store them as entities:
+        // public DbSet<LogIn> LogIns { get; set; }
+        // public DbSet<Register> Registers { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Configure UserRole entity
+            modelBuilder.Entity<UserRole>(entity =>
+            {
+                entity.HasKey(e => e.UserName);
+                entity.Property(e => e.UserName)
+                    .IsRequired()
+                    .HasMaxLength(50);
+                entity.Property(e => e.Role)
+                    .IsRequired()
+                    .HasMaxLength(50);
+            });
+
+            // If you want to include LogIn and Register as entities:
+            /*
+            modelBuilder.Entity<LogIn>(entity =>
+            {
+                entity.HasNoKey(); // Since it's likely a DTO
+                entity.Property(e => e.UserName).HasMaxLength(50);
+                entity.Property(e => e.Password).HasMaxLength(255);
+            });
+
+            modelBuilder.Entity<Register>(entity =>
+            {
+                entity.HasKey(e => e.UserName);
+                entity.Property(e => e.UserName).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.Email).IsRequired().HasMaxLength(255);
+                entity.Property(e => e.Password).IsRequired().HasMaxLength(255);
+            });
+            */
+        }
+    }
+}

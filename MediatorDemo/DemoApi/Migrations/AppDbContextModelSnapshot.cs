@@ -16,7 +16,7 @@ namespace DemoApi.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.20")
+                .HasAnnotation("ProductVersion", "9.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -33,6 +33,9 @@ namespace DemoApi.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("UserName");
+
+                    b.HasIndex("Role")
+                        .HasDatabaseName("IX_UserRoles_Role");
 
                     b.ToTable("UserRoles");
                 });

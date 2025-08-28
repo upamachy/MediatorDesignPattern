@@ -4,6 +4,7 @@ using MediatR;
 using MongoDB.Driver;
 using Microsoft.EntityFrameworkCore;
 using DemoApi.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,7 +26,10 @@ builder.Services.AddSingleton<IMongoDatabase>(s =>
     s.GetRequiredService<IMongoClient>().GetDatabase(builder.Configuration.GetValue<string>("MongoDbSettings:DatabaseName")));
 builder.Services.AddSingleton<IMongoDataAccess, MongoDataAccess>();
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<DemoLibraryMediatREntryPoint>());
+// MediatR registration for version 12.5.0
+builder.Services.AddMediatR(cfg => {
+    cfg.RegisterServicesFromAssembly(typeof(DemoLibraryMediatREntryPoint).Assembly);
+});
 
 var app = builder.Build();
 
