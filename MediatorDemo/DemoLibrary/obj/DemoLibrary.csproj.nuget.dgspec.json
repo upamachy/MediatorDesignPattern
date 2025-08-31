@@ -51,13 +51,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AspNetCore.Identity.MongoDbCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
             },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[3.4.1, )"
+              "version": "[3.4.2, )"
             }
           },
           "imports": [

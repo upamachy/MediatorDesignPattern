@@ -8,11 +8,27 @@
     ".NETCoreApp,Version=v9.0": {
       "DemoLibrary/1.0.0": {
         "dependencies": {
+          "AspNetCore.Identity.MongoDbCore": "7.0.0",
           "MediatR": "12.5.0",
-          "MongoDB.Driver": "3.4.1"
+          "MongoDB.Bson": "3.4.3",
+          "MongoDB.Driver": "3.4.2"
         },
         "runtime": {
           "DemoLibrary.dll": {}
+        }
+      },
+      "AspNetCore.Identity.MongoDbCore/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Core": "6.0.8",
+          "Microsoft.Extensions.Identity.Stores": "6.0.8",
+          "MongoDB.Driver": "3.4.2",
+          "MongoDbGenericRepository": "2.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AspNetCore.Identity.MongoDbCore.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
         }
       },
       "DnsClient/1.6.1": {
@@ -46,6 +62,48 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Cryptography.Internal/6.0.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -54,11 +112,75 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "Microsoft.Extensions.Identity.Core/6.0.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.8",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.17205"
+          "lib/net6.0/Microsoft.Extensions.Identity.Core.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/6.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Identity.Core": "6.0.8",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
@@ -69,23 +191,23 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "MongoDB.Bson/3.4.1": {
+      "MongoDB.Bson/3.4.3": {
         "dependencies": {
           "System.Memory": "4.5.5",
-          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/MongoDB.Bson.dll": {
-            "assemblyVersion": "3.4.1.0",
-            "fileVersion": "3.4.1.0"
+            "assemblyVersion": "3.4.3.0",
+            "fileVersion": "3.4.3.0"
           }
         }
       },
-      "MongoDB.Driver/3.4.1": {
+      "MongoDB.Driver/3.4.2": {
         "dependencies": {
           "DnsClient": "1.6.1",
-          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
-          "MongoDB.Bson": "3.4.1",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "MongoDB.Bson": "3.4.3",
           "SharpCompress": "0.30.1",
           "Snappier": "1.0.0",
           "System.Buffers": "4.5.1",
@@ -93,8 +215,19 @@
         },
         "runtime": {
           "lib/net6.0/MongoDB.Driver.dll": {
-            "assemblyVersion": "3.4.1.0",
-            "fileVersion": "3.4.1.0"
+            "assemblyVersion": "3.4.2.0",
+            "fileVersion": "3.4.2.0"
+          }
+        }
+      },
+      "MongoDbGenericRepository/2.0.0": {
+        "dependencies": {
+          "MongoDB.Driver": "3.4.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDbGenericRepository.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -115,8 +248,13 @@
         }
       },
       "System.Buffers/4.5.1": {},
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
       "System.Memory/4.5.5": {},
-      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Security.AccessControl/5.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -140,6 +278,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AspNetCore.Identity.MongoDbCore/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-71WasZQtxkxqUSsDRqlyAHOvAroFSicKnoMGhuXxrnXSNhPQzaBAqvzi9HoQA2rmJUSfEAogY5WxDDio6Ne9NQ==",
+      "path": "aspnetcore.identity.mongodbcore/7.0.0",
+      "hashPath": "aspnetcore.identity.mongodbcore.7.0.0.nupkg.sha512"
+    },
     "DnsClient/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -161,6 +306,34 @@
       "path": "mediatr.contracts/2.0.1",
       "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Cryptography.Internal/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W7IAX1zk131s1B4D/MdrOBVPD2+bUd+qHF6bGhzH47lilpDuo0wRLxzn8LKoGFsVwbMUJNfmWtxR3EXLLwbe/g==",
+      "path": "microsoft.aspnetcore.cryptography.internal/6.0.8",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eDRPXA6l9iMiDjKlrKsMS9Up+7LSkVLyHY6FY8R1W1ej004ZA/roe9feQztS9e/VcI5F3p/00V/dvmjfr2ZOjQ==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.8",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcz5sSFJbganH0+YrfvIjJDIcKNW7TL07C4d1eTmXy/wOt52iz4LVogJb6pazs7W0+74j0YpXFErvp++Aq5Bsw==",
+      "path": "microsoft.extensions.caching.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -168,12 +341,47 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+    "Microsoft.Extensions.Identity.Core/6.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6ZCllUYGFukkymSTx3Yr0G/ajRxoNJp7/FqSxSB4fGISST54ifBhgu4Nc0ItGi3i6DqwuNd8SUyObmiC++AO2Q==",
-      "path": "microsoft.extensions.logging.abstractions/2.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512"
+      "sha512": "sha512-eX1vkbMLahI0hXmncrZL7UB+2tlrFgL0CuAuz6cjDlvytD3/CEdNe3CJj7FjL7130fWSypnzE5WIIgziyqQFHQ==",
+      "path": "microsoft.extensions.identity.core/6.0.8",
+      "hashPath": "microsoft.extensions.identity.core.6.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Stores/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rvSqpHdPDYEns6qjfaG+6GqnrVYFICVbcuC1vJSVSW9DyxhfKdn0mD/sp1ZRp41x5au6iRr5c4Cm5CTP8I8grA==",
+      "path": "microsoft.extensions.identity.stores/6.0.8",
+      "hashPath": "microsoft.extensions.identity.stores.6.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
+      "path": "microsoft.extensions.logging/6.0.0",
+      "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -189,19 +397,26 @@
       "path": "microsoft.win32.registry/5.0.0",
       "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
     },
-    "MongoDB.Bson/3.4.1": {
+    "MongoDB.Bson/3.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ps1fU/Bv2f6D1yBAuXm3O0sH/TvpfChaU6/xtQ1uxNHrfJ7KIGyxc180QHWNrTjxNf16l7LNiY7SH9CL5U/bmg==",
-      "path": "mongodb.bson/3.4.1",
-      "hashPath": "mongodb.bson.3.4.1.nupkg.sha512"
+      "sha512": "sha512-ZB2nCdlWtmDGItkDFh2E2kfYlXaItG414t9Np7CZhpftLypemYnxtdI52H+0b8RPqoUJD7bUvrf598sDTJd5iA==",
+      "path": "mongodb.bson/3.4.3",
+      "hashPath": "mongodb.bson.3.4.3.nupkg.sha512"
     },
-    "MongoDB.Driver/3.4.1": {
+    "MongoDB.Driver/3.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I3Tv7D6oc4nN2yb5POPnn2F3pCTKcUmhWhxfCS/TD9tRAPjdPek4JNr73P97duaUpsQ7D/L57jPtB2pDpIUGbg==",
-      "path": "mongodb.driver/3.4.1",
-      "hashPath": "mongodb.driver.3.4.1.nupkg.sha512"
+      "sha512": "sha512-uB2VlLZO4kGvn499Xbdtu/BfAX6wMqpXlWhDonPGGzyCD+Cho+g0M5XIBjPh/8EFrWmBMKvRamW+AWFjgxx+pw==",
+      "path": "mongodb.driver/3.4.2",
+      "hashPath": "mongodb.driver.3.4.2.nupkg.sha512"
+    },
+    "MongoDbGenericRepository/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LtS89Ff5MPtmMs0fkFhboddo1mwwrnix+2NxFJjOtJkHhxYeun6bNnOcYRorAXlA2Fmymrxedjl4hadOoQYNvg==",
+      "path": "mongodbgenericrepository/2.0.0",
+      "hashPath": "mongodbgenericrepository.2.0.0.nupkg.sha512"
     },
     "SharpCompress/0.30.1": {
       "type": "package",
@@ -224,6 +439,13 @@
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
+    },
     "System.Memory/4.5.5": {
       "type": "package",
       "serviceable": true,
@@ -231,12 +453,12 @@
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
-      "path": "system.runtime.compilerservices.unsafe/5.0.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "System.Security.AccessControl/5.0.0": {
       "type": "package",

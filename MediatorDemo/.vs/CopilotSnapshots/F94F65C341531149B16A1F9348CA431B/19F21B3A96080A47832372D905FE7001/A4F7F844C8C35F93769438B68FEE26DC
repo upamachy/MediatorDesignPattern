@@ -1,0 +1,49 @@
+﻿using DemoLibrary;
+using DemoLibrary.DataAccess;
+using MediatR;
+using MongoDB.Driver;
+using Microsoft.EntityFrameworkCore;
+using DemoApi.Data;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllers();
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Configure Entity Framework (for relational data like UserRole)
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Configure MongoDB (for document data like PersonModel)
+builder.Services.AddSingleton<IMongoClient>(s =>
+    new MongoClient(builder.Configuration.GetValue<string>("MongoDbSettings:ConnectionString")));
+builder.Services.AddSingleton<IMongoDatabase>(s =>
+    s.GetRequiredService<IMongoClient>().GetDatabase(builder.Configuration.GetValue<string>("MongoDbSettings:DatabaseName")));
+builder.Services.AddSingleton<IMongoDataAccess, MongoDataAccess>();
+
+// MediatR registration for version 12.5.0
+builder.Services.AddMediatR(cfg => {
+    cfg.RegisterServicesFromAssembly(typeof(DemoLibraryMediatREntryPoint).Assembly);
+});
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

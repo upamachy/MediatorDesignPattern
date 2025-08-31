@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.Identity.MongoDbCore" Version="7.0.0" />
     <PackageReference Include="MediatR" Version="12.5.0" />
-    <PackageReference Include="MongoDB.Driver" Version="3.4.1" />
+    <PackageReference Include="MongoDB.Bson" Version="3.4.3" />
+    <PackageReference Include="MongoDB.Driver" Version="3.4.2" />
   </ItemGroup>
 
 </Project>

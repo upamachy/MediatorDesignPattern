@@ -1,10 +1,12 @@
 using DemoLibrary;
 using DemoLibrary.DataAccess;
+using DemoLibrary.Models;
 using MediatR;
 using MongoDB.Driver;
-using Microsoft.EntityFrameworkCore;
-using DemoApi.Data;
-using Microsoft.EntityFrameworkCore;
+using AspNetCore.Identity.MongoDbCore.Extensions;
+using AspNetCore.Identity.MongoDbCore.Infrastructure;
+using Microsoft.AspNetCore.Identity;
+using MongoDB.Bson;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,16 +17,62 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configure Entity Framework (for relational data like UserRole)
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Configure MongoDB
+var mongoDbSettings = builder.Configuration.GetSection("MongoDbSettings");
+var connectionString = mongoDbSettings.GetValue<string>("ConnectionString") ?? "mongodb://localhost:27017";
+var databaseName = mongoDbSettings.GetValue<string>("DatabaseName") ?? "DemoDb";
 
-// Configure MongoDB (for document data like PersonModel)
 builder.Services.AddSingleton<IMongoClient>(s =>
-    new MongoClient(builder.Configuration.GetValue<string>("MongoDbSettings:ConnectionString")));
+    new MongoClient(connectionString));
 builder.Services.AddSingleton<IMongoDatabase>(s =>
-    s.GetRequiredService<IMongoClient>().GetDatabase(builder.Configuration.GetValue<string>("MongoDbSettings:DatabaseName")));
+    s.GetRequiredService<IMongoClient>().GetDatabase(databaseName));
 builder.Services.AddSingleton<IMongoDataAccess, MongoDataAccess>();
+
+// Configure MongoDB Identity
+var mongoDbIdentityConfig = new MongoDbIdentityConfiguration
+{
+    MongoDbSettings = new MongoDbSettings
+    {
+        ConnectionString = connectionString,
+        DatabaseName = databaseName
+    },
+    IdentityOptionsAction = options =>
+    {
+        // Password settings
+        options.Password.RequireDigit = true;
+        options.Password.RequiredLength = 8;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireUppercase = true;
+        options.Password.RequireLowercase = true;
+
+        // Lockout settings
+        options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+        options.Lockout.MaxFailedAccessAttempts = 5;
+        options.Lockout.AllowedForNewUsers = true;
+
+        // User settings
+        options.User.RequireUniqueEmail = true;
+        options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+    }
+};
+
+builder.Services.ConfigureMongoDbIdentity<ApplicationUser, ApplicationRole, ObjectId>(mongoDbIdentityConfig)
+    .AddUserManager<UserManager<ApplicationUser>>()
+    .AddSignInManager<SignInManager<ApplicationUser>>()
+    .AddRoleManager<RoleManager<ApplicationRole>>()
+    .AddDefaultTokenProviders();
+
+// Configure Authentication
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
+})
+.AddIdentityCookies();
+
+// Add Authorization
+builder.Services.AddAuthorization();
 
 // MediatR registration for version 12.5.0
 builder.Services.AddMediatR(cfg => {
@@ -42,6 +90,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
